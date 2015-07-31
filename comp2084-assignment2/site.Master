@@ -20,16 +20,16 @@
     <nav class="navbar navbar-default">
         <a class="navbar-brand" href="default.aspx">Comic Tracker</a>
         <ul class="nav navbar-nav">
-           <!-- <asp:PlaceHolder ID="plhPublic" runat="server">-->
+            <asp:PlaceHolder ID="plhPublic" runat="server">
                 <li><a href="register.aspx">Register</a></li>
                 <li><a href="login.aspx">Login</a></li>
-            <!--</asp:PlaceHolder>-->
-            <!--<asp:PlaceHolder ID="plhPrivate" runat="server">-->
+            </asp:PlaceHolder>
+            <asp:PlaceHolder ID="plhPrivate" runat="server">
                 <li><a href="tracker.aspx">Comics</a></li>
                 <li><a href="authors.aspx">Authors</a></li>
                 <li><a href="publishers.aspx">Publishers</a></li>
                 <li><a href="logout.aspx">Logout</a></li>
-            <!--</asp:PlaceHolder>-->
+            </asp:PlaceHolder>
         </ul>
 
         <div class="navbar navbar-right">

@@ -18,8 +18,8 @@ namespace comp2084_lesson4
             if (Session["UserID"] != null)
             {
                 //user is logged in show private nav
-               // plhPrivate.Visible = true;
-                //plhPublic.Visible = false;
+                plhPrivate.Visible = true;
+                plhPublic.Visible = false;
 
                 //show the name in the header
                 lblName.Text = Session["UserName"].ToString();
@@ -27,8 +27,8 @@ namespace comp2084_lesson4
             else
             {
                 //user not logged in
-              //  plhPrivate.Visible = false;
-               // plhPublic.Visible = true;
+              plhPrivate.Visible = false;
+              plhPublic.Visible = true;
             }
         }
     }
